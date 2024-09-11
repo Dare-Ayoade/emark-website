@@ -1,0 +1,314 @@
+/* body{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+h1{
+    text-align: center;
+}
+
+.navbar ul{
+    background-color: blue;
+    list-style-type: none;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    display: flex;
+    justify-content: center; 
+}
+
+.navbar ul li {
+    display: inline-block; 
+}
+
+.navbar a{
+    color: white;
+    text-decoration: none;
+    padding: 20px;
+    display: block;
+    text-align: center;
+
+}
+
+.navbar a:hover{
+    background-color: rgb(8, 72, 128);
+}
+
+.navbar ul{
+   
+} */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+header{
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+}
+
+.logo-link{
+    display: inline-block;
+    text-align: center;
+}
+.content h1{
+    color: black;
+}
+h1 {
+    text-align: center;
+}
+
+/* styles.css */
+/* canvas {
+    background: white;
+    background: radial-gradient(#FFF, #DDD);
+    width: 100%;
+    height: 100%;
+  } */
+
+.navbar {
+    background-color: rgb(0, 7, 220); /* Background color spans the width of the page */
+    overflow: hidden; /* Clear floats and maintain layout */
+    display: flex; /* Use Flexbox for layout */
+    align-items: center; /* Vertically center the content */
+    justify-content: space-between; /* Space between logo and nav links */
+    padding: 10px 20px; /* Add padding to the navbar */
+}
+
+.logo-link {
+    display: inline-block; /* Ensures the logo remains inline */
+    flex: 1; /* Take up equal space */
+    text-align: center; /* Center the logo */
+}
+
+.logo {
+    width: 330px; /* Set the width of the logo */
+    height: 80px; /* Set the height of the logo */
+    display: block; /* Ensures proper spacing and alignment */
+    
+}
+
+.navbar ul {
+    list-style-type: none; /* Remove bullets from the list */
+    padding: 0;
+    margin: 0;
+    display: flex; /* Align nav links in a row */
+    justify-content: center; /* Align nav links to the right */
+    flex-grow: 1; /* Allow the nav links to take up remaining space */
+}
+
+.navbar ul li {
+    display: inline-block; /* Aligns list items horizontally */
+}
+
+.navbar a {
+    color: white; /* Text color of the nav links */
+    text-decoration: none; /* Remove underline from links */
+    padding: 20px; /* Spacing around the nav links */
+    display: block; /* Ensures the entire link area is clickable */
+    text-align: center; /* Center-align the link text */
+}
+
+.navbar a:hover {
+    background-color: rgb(0, 7, 220); /* Change background color on hover */
+    color: black; /* Maintain white text color on hover */
+    
+}
+.section {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    background-position: center;
+}
+
+.content {
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    color: #fff; /* adjust the text color to contrast with the background image */
+}
+
+.content1 {
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    color: #fff; /* adjust the text color to contrast with the background image */
+}
+
+.content h1 {
+    margin-top: 15px;
+    font-size: 80px;
+    margin-bottom: 20px;
+    color: rgb(255, 255, 255);
+}
+
+.content h2 {
+    margin-top: 0px;
+    font-size: 50px;
+    margin-bottom: 10px;
+    color: rgb(0, 7, 220);
+}
+
+button{
+    background-color: transparent;
+    border: 2px solid white;
+    border-radius: 10px;
+    color: white;
+    padding: 10px 20px;
+    font-size: 20px;
+    cursor: pointer;
+}
+button a{
+color: #fff;
+text-decoration: none;
+}
+button:hover{
+    background-color: rgb(0, 7, 220);
+}
+
+.content p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.content1 h1 {  
+    margin: 20px;
+    font-size: 50px;
+    margin-bottom: 20px;
+    color:rgb(0, 7, 220) ;
+}
+
+.content1 p {
+    font-size: 18px;
+    margin-bottom: 20px;
+    color:rgb(0, 7, 220) ;
+}
+
+.quadrant {
+    color: orange;
+}
+
+.quadrants {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+.content1 h1{
+    color: white;
+}
+.content1 p{
+    color: white;
+}
+
+.quadrant {
+    width: 100%;
+    height: 15vh;
+    background-color: transparent;
+    border: 5px solid #ddd;
+    border-radius: 30px;
+    padding: 15px;
+    margin: 20px;
+    text-align: center;
+ }
+
+    #partners h1{
+        color:black
+    }
+    
+    .reviews{
+        display: flex;
+
+    }
+
+    .bottom-reviews h2{
+        color: black;
+    }
+
+    .review{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        background-color: transparent;
+        color: black;
+        padding: 20px;
+        margin: 20px;
+        
+   
+    }  
+    
+    
+    .reviews h2{
+        color: black;
+    }
+
+
+    .reviews{
+        display: flex;
+    justify-content: space-around;
+        flex-wrap: wrap;
+        flex-direction: row;
+    }
+    
+    #lets_work h1{
+        color: black
+    }
+
+    #lets_work p{
+        color: black
+    
+    }
+
+    .review {
+        width: calc(50% - 20px); /* adjust the width to take up half of the container minus the margin */
+        margin: 20px; /* add some margin to separate the reviews */    
+    }
+
+
+    .partners-section {
+        margin-top: -50px; /* move the section up by 50px */
+        padding-top: 20px; /* add some padding to maintain spacing */
+      }
+
+#orange_border {
+    border: 5px solid orange; /* add a orange border */
+    background-color: transparent; /* change the background color to orange */
+}
+
+.stats{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: transparent;
+    color: white;
+    padding: 20px;
+    margin: 20px;
+
+    
+}
+
+.partners {
+    display: flex;
+    justify-content: space-around;
+}
+
+.partners img {
+    width: 150px; /* adjust the width to your desired size */
+    height: 150px; /* adjust the height to your desired size */
+    object-fit: cover; /* ensure the image is scaled to fit the container */
+    margin: 10px; /* add some margin for spacing */
+}
+
+/* .quadrant:first-child {
+    width: 100%;
+    height: 25vh;
+    margin-bottom: 20px;
+} */
+
+
